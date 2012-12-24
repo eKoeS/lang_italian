@@ -1,3 +1,5 @@
+**Note:** The official repository is now at <https://github.com/symphonycms-it/lang_italian>. See you there!
+
 Official Italian translation for the [Symphony](http://www.symphony-cms.com) backend.
 
 ## Contributors
