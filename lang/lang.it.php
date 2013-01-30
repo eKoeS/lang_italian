@@ -1618,7 +1618,7 @@
 		'Errore XSLT',
 
 		'Yes' => 
-		'S&#236;',
+		'Si',
 
 		'You are already using the most recent version of Symphony. There is no need to run the installer, and can be safely deleted.' => 
 		'Stai gi&#224; usando la versione p&#249; recente di Symphony. Puoi rimuovere il file di aggiornamento.',
@@ -1644,8 +1644,14 @@
 		'You must enter your name.' => 
 		'Devi inserire il tuo nome.',
 
-		'Your Symphony installation is up to date, but an updater script was still detected. For security reasons, it should be removed. <a href="%s/update.php?action=remove">Remove Update Script</a>' => 
-		'La versione di Symphony che stai utilizzando &#232; la pi&#249; recente, ma lo script di aggiornamento non &#232; stato ancora rimosso. Per ragioni di sicurezza, dovresti eliminarlo. <a href="%s/update.php?action=remove">Elimina lo script di aggiornamento</a>',
+		'Your Symphony installation is up to date, but the installer was still detected. For security reasons, it should be removed.' => 
+		'La versione di Symphony che stai utilizzando &#232; la pi&#249; recente, ma lo script di aggiornamento non &#232; stato ancora rimosso. Per ragioni di sicurezza, dovresti eliminarlo.',
+
+		'Remove installer?' => 
+		'Rimuovere file di installazione?',
+
+		'Ignore?' => 
+		'Ignora?',
 
 		'ZLib Compression Library' => 
 		'Libreria di compressione ZLib',
@@ -1889,11 +1895,23 @@
 		'Enable' => 
 		'Attiva',
 
-		'Entry created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Entries</a>' => 
-		'Voce creata %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le voci</a>',
+		//'Entry created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Entries</a>' => 
+		//'Voce creata %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le voci</a>',
 
-		'Entry updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Entries</a>' => 
-		'Voce modificata %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le voci</a>',
+		'Entry updated at %s' => 
+		'Voce modificata %s.',
+
+		'Entry created at %s.' => 
+		'Voce creata %s.',
+
+		'Create another?' => 
+		'Vuoi crearne un\'altra?',
+		
+		'View all Entries' => 
+		'Vedi tutte le voci.',
+
+		//'Entry updated at %s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Entries</a>' => 
+		//'Voce modificata %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le voci</a>',
 
 		'Event created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Events</a>' => 
 		'Evento creato %1$s. <a href="%2$s">Vuoi crearne un altro?</a> <a href="%3$s">Visualizza tutti gli eventi</a>',
@@ -2029,6 +2047,9 @@
 
 		'authors' => 
 		'autori',
+
+		'Edit Section' => 
+		'Modifica sezione',
 
 		'dynamic_xml' => 
 		'dynamic_xml',
