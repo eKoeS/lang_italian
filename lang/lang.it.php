@@ -1039,7 +1039,7 @@
 		'Errore XSLT',
 
 		'Yes' =>
-		'S&#236;',
+		'Si',
 
 		'You are not authorised to access this page.' =>
 		'Non sei autorizzato ad accedere alla pagina.',
